@@ -1,0 +1,7 @@
+extends layout
+
+block content 
+    p.
+        Abhinav Jauhri <br>
+        PhD Candidate, ECE, <br>
+        Carnegie Mellon University <br>
