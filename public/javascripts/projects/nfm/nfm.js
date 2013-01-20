@@ -55,7 +55,6 @@ NFM.prototype.evaluate = function() {
         current = next;
     }
     this.drawComputation();
-    console.log(this.root);
 };
 
 NFM.prototype.drawComputation = function() {

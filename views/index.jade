@@ -1,5 +1,8 @@
 extends layout
 
+block styling
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
 block title 
     title Abhinav Jauhri's Home Page
 
@@ -7,7 +10,17 @@ block content
     h2(class="block") About me
     p.
         I'm a Ph.D. candidate in the Electrical and Computer Engineering department at <a href="http://www.cmu.edu">Carnegie Mellon University.</a> My advisor is <a href="http://www.cmu.edu/silicon-valley/faculty-staff/lohn-jason.html">Prof. Jason Lohn.</a>
-        
+    
+    h2(class="block") Research Interests
+    p.
+        My interests lie in the areas of Algorithms, Machine Learning, Queuing Theory and Operating Systems.
+    
+    h2(class="block") Just for Fun
+    ul
+      li
+        a(href='./projects/nfm.html') NFM 
+        | - Visual demonstration of a Nondeterministic Finite Automaton machine
+
     h2(class="block") Links
     ul
         li: a(href="https://github.com/ajauhri") Github
