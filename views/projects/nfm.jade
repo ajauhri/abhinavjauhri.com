@@ -31,13 +31,13 @@ div#toolBox
     | Transistion:
     select#deltas
   div.subHead
-    | Symbols:
-    input#alphabets(size='15/')
+    label
+      input#alphabets(size='15/')
   hr
   div.subHead
-    | Input string:
-    input#input(size='15/')
-  button#evaluate Evaluate
+    label
+      input#input(size='15/')
+  button#evaluate Compute 
   hr
   div.subHead
     | Glossary:
@@ -52,8 +52,8 @@ div#toolBox
       li.ui-state-default.ui-corner-all S: Start state
       li.ui-state-default.ui-corner-all
         | Use
-        a(href='http://www.fileformat.info/info/unicode/char/190/index.htm') Ɛ
-        | as input symbol for
+        a#e-symbol(href='#') Ɛ
+        | as the symbol for
         a(href='http://en.wikipedia.org/wiki/Nondeterministic_finite_automaton_with_%CE%B5-moves') Ɛ-moves
 hr
 div#comp
