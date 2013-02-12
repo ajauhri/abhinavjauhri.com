@@ -115,7 +115,7 @@ jsPlumb.bind("ready", function() {
         $("#howTo").draggable();
         $("#howTo").html("How to use this demo? " +
                 "<ul><li>Add multiple states using the `Add State` link. </li>" +
-                "<li>Transition arrows between states can be made by holding the mouse pointer on <img src='square_block.png'/> symbol of the source state " +
+                "<li>Transition arrows between states can be made by holding the mouse pointer on <img src='/images/square_block.png'/> symbol of the source state " +
                 "and dragging it to the desitination state. Self-loops can also be made by dragging the arrow to the source state itself.</li> " + 
                 "<li>Every transistion will have a entry in the `Transition` drop down list. By selecting the transition from the drop down list," +
                 " the transition symbol(s) can be entered in the `Transistion symbols` box.</li>"+
