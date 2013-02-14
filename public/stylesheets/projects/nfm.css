@@ -63,7 +63,7 @@
 path { cursor:pointer; }
 
 #toolBox, #howTo {
-    left: 1em;
+    position: absolute;
     top: 1em;
     width: 17em;
     padding-top: 0.1em;
@@ -81,9 +81,8 @@ path { cursor:pointer; }
 }
 
 #howTo {
-    left: 60em;
-    top: 1em;
     width: 25em;
+    right: 1em;
 }
 
 #howTo ul li { margin: 10 20px 10px 5px; }
