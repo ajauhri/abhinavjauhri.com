@@ -119,11 +119,12 @@ jsPlumb.bind("ready", function() {
                 "and drag it to the desitination state. To make self-loops drag the arrow to the source state itself.</li> " + 
                 "<li>Every transistion will have a entry in the `Transition` drop down list. By selecting the transition from the drop down list," +
                 " the transition symbol(s) can be entered in the `Transistion symbols` box.</li>"+
-                "<li>Every transistion should have at least one symbol. Multiple symbols should be separatd by commas. " +
+                "<li>Every transistion should have at least one symbol. Multiple symbols should be separated by commas. " +
                 "Example: a,c,e,&#400;,f. For convenience, the &#400; symbol can be entered by pressing the &#400; link provided in the Glossary.</li> " +
                 "<li>The automaton should have one start state and at least one accept state.</li> " +
                 "<li>Provide the input string to be computed by the automaton in the `Input String` box.</li>" +
-                "<li>Press the `Compute` button to see the result in the bottom section of the page.</li></ul>");
+                "<li>Press the `Compute` button to see the result in the bottom section of the page.</li>" +
+                "<li>Accept Criterion: If any one of the leaves of the computation tree have an accept state, then NFA accepts the input string.</li></ul>");
     };
 
     initCompBox = function() {
