@@ -1,8 +1,8 @@
-title Nondeterministic Finite Automaton
-meta(http-equiv='content-type',content='text/html;charset=utf-8')
+meta(http-equiv="content-type", content="text/html; charset=UTF-8")
 meta(name='keywords',content='automaton, state, machine, theory, computation')
 link(rel='stylesheet',href='/stylesheets/projects/nfm.css')
- script
+title Nondeterministic Finite Automaton
+script
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34738791-1']);
       _gaq.push(['_trackPageview']);
@@ -38,7 +38,7 @@ div#toolBox
   div.subHead
     label
       input#input(size='15/')
-  button#evaluate Compute 
+  a#compute(href='#') Compute 
   hr
   div.subHead
     | Glossary:
@@ -55,9 +55,9 @@ div#toolBox
         | Use
         a#e-symbol(href='#') Ɛ
         | as the symbol for
-        a(href='http://en.wikipedia.org/wiki/Nondeterministic_finite_automaton_with_%CE%B5-moves') Ɛ-moves
+        a(href='http://en.wikipedia.org/wiki/Nondeterministic_finite_automaton_with_%CE%B5-moves', target='_newtab') Ɛ-moves
 #howTo.subHead
- ul
+  ul
 hr
 div#comp
   div.subHead Computation Result:
@@ -66,4 +66,3 @@ p.foot-note
   a(href='http://www.jsplumb.org/') jsPlumb 1.3.16,
   a(href='http://jquery.com') jQuery 1.8.3,
   a(href='http://jqueryui.com/') jQuery UI 1.8.23
-  | .

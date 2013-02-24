@@ -96,7 +96,7 @@ jsPlumb.bind("ready", function() {
     initToolBox = function() {
         $("#toolBox").draggable();
         $("input:text, input:password, input[type=email]").button().addClass("ui-textfield");
-        $("#evaluate").click(function(e) {
+        $("#compute").click(function(e) {
             nfm.input = $("#input").val();
             if (!validate(e)) { 
                 e.stopPropagation();
@@ -124,7 +124,7 @@ jsPlumb.bind("ready", function() {
                 "<li>The automaton should have one start state and at least one accept state.</li> " +
                 "<li>Provide the input string to be computed by the automaton in the `Input String` box.</li>" +
                 "<li>Press the `Compute` button to see the result in the bottom section of the page.</li>" +
-                "<li>Accept Criterion: If any one of the leaves of the computation tree have an accept state, then NFA accepts the input string.</li></ul>");
+                "<li>Accept Criterion: If any one of the leaf nodes of the computation tree have an accept state, then NFA accepts the input string.</li></ul>");
     };
 
     initCompBox = function() {

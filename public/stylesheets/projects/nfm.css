@@ -105,6 +105,7 @@ a {
 
 .subHead {
     margin-top: 0.7em;
+    margin-bottom: 0.7em;
     -webkit-margin-start: 5px;
     -moz-margin-start: 5px;
     color: rgb(121, 121, 121);
@@ -123,11 +124,6 @@ hr {
 ul {
     padding-left: 1.2em;
     margin: 3;
-}
-
-button {
-    margin: 6;
-    line-height: 1.5em;
 }
 
 #main, #comp {
