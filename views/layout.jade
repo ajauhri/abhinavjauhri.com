@@ -18,4 +18,18 @@ html
             })();
   
   body
-    block content
+    div(class="nav")
+        ul(style="list-style-type:none")
+            li
+                a(href='/resume.pdf') CV (in pdf)
+            li
+                a(href='/resume.ps') CV (in PS)
+            li
+                a(href="https://github.com/ajauhri") 
+                  i.icon-social-github
+            li
+                a(href="https://twitter.com/abhinavjauhri")
+                  i.icon-social-twitter
+
+   block content
+    
