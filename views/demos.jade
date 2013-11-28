@@ -1,0 +1,18 @@
+extends layout
+
+block metadata
+    meta(content='Abhinav Jauhri', name='author')
+
+block styling
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/ionicons.css')
+
+block title
+    title Demos
+
+block content
+    h2(class="block") 
+    ul
+      li
+        a(href='./demos/nfm.html') NFM 
+        | - Visual demonstration of a Nondeterministic Finite Automaton machine

@@ -11,6 +11,6 @@ exports.other = function(req, res){
     res.render(req.params.x);
 };
 
-exports.project = function(req, res) {
-    res.render('projects/'+req.params.name);
+exports.demos = function(req, res) {
+    res.render('demos/'+req.params.name);
 };
